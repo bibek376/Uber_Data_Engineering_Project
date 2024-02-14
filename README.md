@@ -14,7 +14,7 @@
  - A. Problem Statement<br>
  - B. Introduction About Project<br>
  - C. Tools and Libraries
-2. [Data Collection]-[TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+2. Data Collection-[TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
    
 3. Generic Flow Of Project
