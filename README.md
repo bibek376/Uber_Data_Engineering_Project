@@ -12,12 +12,11 @@
 ## Table Of Content
 1. [Project Description](#1-project-description)<br>
  - A. Problem Statement<br>
- - B. Best Possible Solutions<br>
- - C. Introduction About Project<br>
- - D. Tools and Libraries
+ - B. Introduction About Project<br>
+ - C. Tools and Libraries
 2. [Data Collection](https://www.kaggle.com/ruiqurm/lianjia)
 3. Generic Flow Of Project
-4. Model Deployment
+4. Data Deployment
 
 
 ### 1. Project Description
@@ -37,16 +36,13 @@ House price prediction is a very stressful work, as we have to consider differen
 **Tools**<br>
 - Python
 - Jupyter Notebook
-- Flask
-- HTML
-- CSS
-- JS
-- Heroku
+- PostgreSQL
+- lucid
+- Mage
 - GitHub
 
 **Libraries**<br>
 - Pandas
-- Scikit Learn
 - Numpy
 - Seaborn
 - Matplotlib
