@@ -21,8 +21,14 @@
 
 ### 1. Project Description
 #### A. Problem Statement
+The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive information on taxi trips in New York City, including those for yellow and green taxis. However, the sheer volume of data and redundancy pose challenges for meaningful analytics. Processing and analyzing such large datasets efficiently become crucial for extracting valuable insights and optimizing taxi services.
 
-Thousands of houses are sold every day. There are some questions every buyer asks themselves, like: What is the actual price that this house deserves? Am I paying a fair price?
+Volume and Redundancy: The dataset is vast, containing millions of records with redundant information.
+
+Data Suitability: The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.
+
+
+
 
 #### B. Best Possible Solutions
 - Housing Expert
