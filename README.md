@@ -25,7 +25,7 @@
     ```
     In this project i am using one more data file: taxi zone lookup which is useful to detemine pickup location and dropoff location.
    ```bash
-   wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+   wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
    ```
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
