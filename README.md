@@ -1,29 +1,29 @@
 # Uber_Data_Engineering_Project
 
 ## Installation Guide
-1. Clone or Fork the Uber Taxi Data Engineering Project using SSH ot HTTPS method
+1. Clone or Fork the Uber Taxi Data Engineering Project using SSH or HTTPS method
 2. Create a Virtual Environment (optional)
-3. install dependency like python and pandas package
+3. Install dependencies like Python and Pandas package
+
 ## Project Highlights
-1. Real time data
-2. Data Modeling
+1. Real-time data
+2. Data modeling
 3. Open Source
 
 ## Table Of Content
 1. [Project Description](#1-project-description)<br>
- - A. Problem Statement<br>
- - B. Introduction About Project<br>
- - C. Tools and Libraries
+   - A. Problem Statement<br>
+   - B. Introduction About Project<br>
+   - C. Tools and Libraries
 2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br>
-```bash
-wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
-```
-   Since the latest data is in parquet format you can convert paraquet data into csv data using [tablab](https://www.tablab.app/convert/parquet/csv) or use an external resource from data engineering zoomcamp. <br>
-   
-```bash
-wget https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
-```
-All the data was copied from the NYC TLC website
+    ```bash
+    wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+    ```
+    Since the latest data is in parquet format, you can convert parquet data into CSV data using [tablab](https://www.tablab.app/convert/parquet/csv) or use an external resource from Data Engineering Zoomcamp. <br>
+    ```bash
+    wget https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
+    ```
+    All the data was copied from the NYC TLC website
 
 3. Generic Flow Of Project
 4. Data Deployment
@@ -33,9 +33,8 @@ All the data was copied from the NYC TLC website
 #### A. Problem Statement
 The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive information on taxi trips in New York City, including those for yellow and green taxis. However, the sheer volume of data and redundancy pose challenges for meaningful analytics. Processing and analyzing such large datasets efficiently become crucial for extracting valuable insights and optimizing taxi services.
 
-**Volume and Redundancy: The dataset is vast, containing millions of records with redundant information.**
-
-**Data Suitability: The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.**
+- **Volume and Redundancy:** The dataset is vast, containing millions of records with redundant information.
+- **Data Suitability:** The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.
 
 
 #### B. Best Possible Solutions
