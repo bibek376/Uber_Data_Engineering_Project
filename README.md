@@ -15,6 +15,7 @@
  - B. Introduction About Project<br>
  - C. Tools and Libraries
 2. [Data Collection](https://www.kaggle.com/ruiqurm/lianjia)
+   
 3. Generic Flow Of Project
 4. Data Deployment
 
@@ -28,15 +29,12 @@ The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive info
 **Data Suitability: The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.**
 
 
-
-
 #### B. Best Possible Solutions
-- Housing Expert
-- Intuition About House
-- Using Machine Learning
+- Big Data 
+- Costly server
+- ETL approach
 
 #### C. Introduction About Project
-House price prediction is a very stressful work, as we have to consider different things while buying a house, like the structure, rooms, kitchen, parking space, and gardens. People don’t know about the factors that influence the house price. But by using Machine Learning, we can easily find the house which is perfect for us and helps to predict the price accurately.
 
 #### D. Tools and Libraries
 **Tools**<br>
