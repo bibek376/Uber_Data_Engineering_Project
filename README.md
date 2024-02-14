@@ -18,7 +18,11 @@
 ```bash
 wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
 ```
-   Since the latest data is in parquet format you can convert paraquet data into csv data using [tablab](https://www.tablab.app/convert/parquet/csv)
+   Since the latest data is in parquet format you can convert paraquet data into csv data using [tablab](https://www.tablab.app/convert/parquet/csv) or use an external resource from data engineering zoomcamp <br>
+   
+```bash
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+```
 3. Generic Flow Of Project
 4. Data Deployment
 
