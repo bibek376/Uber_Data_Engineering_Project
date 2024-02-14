@@ -27,6 +27,10 @@
    ```bash
    wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
    ```
+   Data File used for this Project
+   ```bash
+   wget https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/data/taxi_zones.csv
+   ```
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 4. Generic Flow Of Project
