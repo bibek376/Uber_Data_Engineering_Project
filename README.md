@@ -37,7 +37,7 @@ House price prediction is a very stressful work, as we have to consider differen
 - Python
 - Jupyter Notebook
 - PostgreSQL
-- lucid
+- lucid(https://lucid.app/users/login#/login)
 - Mage
 - GitHub
 
