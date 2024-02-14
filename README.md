@@ -15,19 +15,7 @@
  - B. Introduction About Project<br>
  - C. Tools and Libraries
 2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-```html
-<div>
-  <button onclick="copyToClipboard()">Copy Command</button>
-</div>
-
-<script>
-function copyToClipboard() {
-  const command = 'wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet';
-  navigator.clipboard.writeText(command);
-  alert('Command copied to clipboard!');
-}
-</script>
-'''
+''' wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet'''
    
 3. Generic Flow Of Project
 4. Data Deployment
