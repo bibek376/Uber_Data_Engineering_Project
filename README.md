@@ -16,8 +16,8 @@
  - C. Tools and Libraries
 2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br>
 ```
-function test() {
-  console.log("wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet");
+bash
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
 }
 ```
    
