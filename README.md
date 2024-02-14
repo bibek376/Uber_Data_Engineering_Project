@@ -1,14 +1,13 @@
 # Uber_Data_Engineering_Project
 
 ## Installation Guide
-1. Clone or Fork the Project
-2. Create a Virtual Environment
-3. Navigate to the project directory and install dependencies using the following command:
+1. Clone or Fork the Uber Taxi Data Engineering Project using SSH ot HTTPS method
+2. Create a Virtual Environment (optional)
+3. install dependency like python and pandas package
 ## Project Highlights
-1. Research Paper
-2. User Friendly
-3. Accuracy
-4. Open Source
+1. Real time data
+2. Data Modeling
+3. Open Source
 
 ## Table Of Content
 1. [Project Description](#1-project-description)<br>
