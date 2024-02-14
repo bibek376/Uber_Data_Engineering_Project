@@ -23,10 +23,14 @@
     ```bash
     wget https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
     ```
+    In this project i am using one more data file: taxi zone lookup which is useful to detemine pickup location and dropoff location.
+   ```bash
+       wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+   ```
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-3. Generic Flow Of Project
-4. Data Deployment
+4. Generic Flow Of Project
+5. Data Deployment
 
 
 ### 1. Project Description
