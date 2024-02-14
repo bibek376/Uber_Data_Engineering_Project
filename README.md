@@ -5,6 +5,19 @@
 2. Create a Virtual Environment (optional)
 3. Install dependencies like Python and Pandas package
 
+## Project Structure 
+```bash
+   ├── data
+   │   └── taxi_zones.csv
+   ├── data_dictionary_trip_records_yellow.pdf
+   ├── LICENSE
+   ├── pictures
+   │   └── 1.png
+   ├── README.md
+   ├── Uber_Data_Engineering_Project.ipynb
+   └── yellow_tripdata_2023-01.csv
+```
+
 ## Project Highlights
 1. Real-time data
 2. Data modeling
@@ -15,7 +28,8 @@
    - A. Problem Statement<br>
    - B. Introduction About Project<br>
    - C. Tools and Libraries
-2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br>
+2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br> <br>
+    You can download all the data file used in this project, 
     ```bash
     wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
     ```
@@ -26,6 +40,10 @@
     In this project i am using one more data file: taxi zone lookup which is useful to detemine pickup location and dropoff location.
    ```bash
    wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
+   ```
+   Data File used for this Project
+   ```bash
+   wget https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/data/taxi_zones.csv
    ```
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
