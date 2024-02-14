@@ -7,15 +7,15 @@
 
 ## Project Structure 
 ```bash
-├── data
-│   └── taxi_zones.csv
-├── data_dictionary_trip_records_yellow.pdf
-├── LICENSE
-├── pictures
-│   └── 1.png
-├── README.md
-├── Uber_Data_Engineering_Project.ipynb
-└── yellow_tripdata_2023-01.csv
+   ├── data
+   │   └── taxi_zones.csv
+   ├── data_dictionary_trip_records_yellow.pdf
+   ├── LICENSE
+   ├── pictures
+   │   └── 1.png
+   ├── README.md
+   ├── Uber_Data_Engineering_Project.ipynb
+   └── yellow_tripdata_2023-01.csv
 ```
 
 ## Project Highlights
