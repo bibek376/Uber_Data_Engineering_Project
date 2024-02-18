@@ -29,11 +29,15 @@
    - B. Introduction About Project<br>
    - C. Tools and Libraries
 2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br> <br>
-    You can download all the data file used in this project, 
+    You can download all the data file used in this project by using following link, 
     ```bash
-    wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+    wget -O $HOME/yello_tridata_2023-01.csv "https://shorturl.at/jpRUX"
     ```
-    Since the latest data is in parquet format, you can convert parquet data into CSV data using [tablab](https://www.tablab.app/convert/parquet/csv) or use an external resource from Data Engineering Zoomcamp. <br>
+   For taxi zone lookup dataset,
+   ```bash
+   
+   ```
+   Feel free to explore more dataset,
     ```bash
     wget https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
     ```
