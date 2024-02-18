@@ -35,20 +35,13 @@
     ```
    For taxi zone lookup dataset,
    ```bash
-   
+    wget -O $HOME/taxi_zones.csv "https://shorturl.at/oxQ46"
    ```
    Feel free to explore more dataset,
     ```bash
     wget https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
     ```
-    In this project i am using one more data file: taxi zone lookup which is useful to detemine pickup location and dropoff location.
-   ```bash
-   wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
-   ```
-   Data File used for this Project
-   ```bash
-   wget https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/data/taxi_zones.csv
-   ```
+
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 4. Generic Flow Of Project
