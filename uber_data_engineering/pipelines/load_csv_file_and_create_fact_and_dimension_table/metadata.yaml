@@ -34,20 +34,44 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
-  downstream_blocks: []
+  downstream_blocks:
+  - creating_fact_table
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
   name: csv_to_tables
   retry_config: null
-  status: not_executed
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:
   - load_csv_file
   - zone_csv_file
   uuid: csv_to_tables
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: default
+    dbt: {}
+    disable_query_preprocessing: false
+    export_write_policy: append
+    limit: 1000
+    use_raw_sql: false
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: creating_fact_table
+  retry_config: null
+  status: failed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - csv_to_tables
+  uuid: creating_fact_table
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
@@ -59,7 +83,7 @@ executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: morning astronomer
+name: load_csv_file_and_create_fact_and_dimension_table
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -69,6 +93,6 @@ settings:
 spark_config: {}
 tags: []
 type: python
-uuid: morning_astronomer
+uuid: load_csv_file_and_create_fact_and_dimension_table
 variables_dir: /home/bibek/.mage_data/uber_data_engineering
 widgets: []
