@@ -108,8 +108,19 @@ def transform(data,data_2, *args, **kwargs):
                                     'payment_type': 'payment_id'
                                     })
 
+    after_duplicate_filtered_df_and_rename['id'] = after_duplicate_filtered_df.index+1
+    after_duplicate_filtered_df_and_rename['date_time_id'] = after_duplicate_filtered_df.index+1
+
+    fact_table=after_duplicate_filtered_df_and_rename[['id','vendor_id','date_time_id','pu_location_id',
+                                       'do_location_id','store_and_forward_id',
+                                       'payment_id','rate_id','passenger_count',
+                                       'trip_distance','fare_amount','extra','mta_tax',
+                                       'tip_amount','tolls_amount','improvement_surcharge',
+                                       'total_amount','congestion_surcharge','airport_fee'
+                                       ]]
+
     data_frame_list=[vendor_dim,payment_dim,rate_dim,store_and_forward_dim,
-                    zones_dim,date_time_dim]
+                    zones_dim,date_time_dim,fact_table]
     
     data_frame_dict={
         'vendor_dim':vendor_dim,
@@ -117,7 +128,8 @@ def transform(data,data_2, *args, **kwargs):
         'rate_dim':rate_dim,
         'store_and_forward_dim':store_and_forward_dim,
         'zones_dim':zones_dim,
-        'date_time_dim':date_time_dim
+        'date_time_dim':date_time_dim,
+        'fact_table':fact_table
     }
 
     return data_frame_dict
