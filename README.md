@@ -45,7 +45,10 @@
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 4. Generic Flow Of Project
-5. Data Deployment
+   
+   ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/Project_Architecture.png)<br>
+   
+6. Data Deployment
 
 
 ### 1. Project Description
