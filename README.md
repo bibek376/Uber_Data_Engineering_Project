@@ -53,6 +53,8 @@
    I am using mage-ai as ETL for data development. At first load yello trip data then filter some data (there are some string value in int column) then
    create separate csv file(after_clean.csv).
 
+   ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/etl.png)<br>
+
    
    
 
