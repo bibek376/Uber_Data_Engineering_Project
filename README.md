@@ -54,7 +54,7 @@
    - **Data Suitability:** The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.
 
    - B. Tools and Libraries
-        **Tools**<br>
+        **Tools**<br><br>
          - Python<br>
          - Jupyter Notebook<br>
          - PostgreSQL<br>
@@ -63,7 +63,7 @@
          - Docker<br>
          - GitHub<br>
          
-     **Libraries**<br>
+     **Libraries**<br><br>
          - Pandas<br>
          - Numpy<br>
          - Seaborn<br>
