@@ -347,6 +347,6 @@
 
    ```
 
-   After the pipeline execute, It will create different csv file according to warehouse design.
+   After the pipeline execute, It will create different csv file according to warehouse design.<br>
    ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/final_result.png)<br>
 
