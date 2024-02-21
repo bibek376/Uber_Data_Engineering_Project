@@ -277,8 +277,35 @@
    
    This is the heart of the project where seven different dataframe has been created using ER diagram.
    
-   
+   Inside the export_different_csv_file_according_to_er_diagram,
 
+   ```python
+   from mage_ai.io.file import FileIO
+   from pandas import DataFrame
+   import os  
+   
+   if 'data_exporter' not in globals():
+       from mage_ai.data_preparation.decorators import data_exporter
+   
+   
+   @data_exporter
+   def export_data_to_file(data, **kwargs) -> None:
+       """
+       Template for exporting data to filesystem.
+   
+       Docs: https://docs.mage.ai/design/data-loading#fileio
+       """
+   
+       data_dir="/root/data/"
+       for name,df in data.items():
+           df=DataFrame(df)
+           filename=os.path.join(data_dir,f"{name}.csv")
+           df.to_csv(filename,index=False)
+           print(f"{name} table create successfully!")
+       
+       return "success"
+
+   ```
 
 ### 1. Project Description
 #### A. Problem Statement
