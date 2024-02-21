@@ -307,6 +307,12 @@
 
    ```
 
+   After the pipeline execute, It will create different csv file according to warehouse design.
+   ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/final_result.png)<br>
+
+
+
+
 ### 1. Project Description
 #### A. Problem Statement
 The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive information on taxi trips in New York City, including those for yellow and green taxis. However, the sheer volume of data and redundancy pose challenges for meaningful analytics. Processing and analyzing such large datasets efficiently become crucial for extracting valuable insights and optimizing taxi services.
