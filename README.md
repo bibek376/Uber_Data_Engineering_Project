@@ -14,15 +14,34 @@
    ```
 ## Project Structure 
 ```bash
+   ├── after_some_cleaning.csv
    ├── data
-   │   └── taxi_zones.csv
+   │   ├── date_time_dim.csv
+   │   ├── fact_table.csv
+   │   ├── payment_dim.csv
+   │   ├── rate_dim.csv
+   │   ├── store_and_forward_dim.csv
+   │   ├── taxi_zones.csv
+   │   ├── uber_data.csv
+   │   ├── vendor_dim.csv
+   │   └── zones_dim.csv
    ├── data_dictionary_trip_records_yellow.pdf
    ├── LICENSE
    ├── pictures
-   │   └── 1.png
+   │   ├── 1.png
+   │   ├── 2.png
+   │   ├── 3.png
+   │   ├── 4.png
+   │   ├── 5.png
+   │   ├── etl.png
+   │   ├── final_result.png
+   │   └── Project_Architecture.png
    ├── README.md
-   ├── Uber_Data_Engineering_Project.ipynb
+   ├── Test.ipynb
+   ├── uber_data_engineering_only_pandas.ipynb
+   ├── Uber_Data_Engineering_Project_Live.ipynb
    └── yellow_tripdata_2023-01.csv
+
 ```
 
 
