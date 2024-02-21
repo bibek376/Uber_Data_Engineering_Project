@@ -5,8 +5,12 @@
 2. Create a Virtual Environment (optional)
 3. Install dependencies like Python and Pandas package
 4. You can directly use the docker mage image but remember to limit docker container in terms of memory
+   
    ```docker
       sudo docker pull mageai/mageai:lates
+   ```
+   ```bash
+      sudo docker run -d -v /home/bibek/Desktop/uber_data_engineering/:/root/ --memory='9216mb' <image_name> 
    ```
 ## Project Structure 
 ```bash
