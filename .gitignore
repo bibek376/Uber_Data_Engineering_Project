@@ -2,3 +2,8 @@
 yellow_tripdata_2023-01.csv
 .ipynb_checkpoints/
 after_some_cleaning.csv
+data/
+.cache/snowflake/
+.ssh/
+.ipython/profile_default/pid/
+.ipython/profile_default/security/

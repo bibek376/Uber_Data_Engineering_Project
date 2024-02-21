@@ -3,7 +3,7 @@ if 'data_loader' not in globals():
     from mage_ai.data_preparation.decorators import data_loader
 if 'test' not in globals():
     from mage_ai.data_preparation.decorators import test
-
+import pandas as pd
 
 @data_loader
 def load_data_from_file(*args, **kwargs):
@@ -16,9 +16,10 @@ def load_data_from_file(*args, **kwargs):
 
     Docs: https://docs.mage.ai/design/data-loading#fileio
     """
-    filepath = '/home/bibek/Desktop/uber_data_engineering/after_some_cleaning.csv'
+    df = pd.read_csv('/home/bibek/Desktop/uber_data_engineering/after_some_cleaning.csv')
+    df=df.head(100000)
 
-    return FileIO().load(filepath)
+    return df
 
 
 @test
