@@ -18,10 +18,6 @@
    └── yellow_tripdata_2023-01.csv
 ```
 
-## Project Highlights
-1. Real-time data
-2. Data modeling
-3. Open Source
 
 ## Table Of Content
 1. [Project Description](#1-project-description)<br>
