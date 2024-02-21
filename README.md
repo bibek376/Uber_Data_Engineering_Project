@@ -33,7 +33,7 @@
          - Jupyter Notebook<br>
          - PostgreSQL<br>
          - [lucid](https://lucid.app/users/login#/login)<br>
-         - Mage<br>
+         - [Mage](https://github.com/mage-ai/mage-ai)<br>
          - Docker<br>
          - GitHub<br>
          
