@@ -25,9 +25,27 @@
 
 ## Table Of Content
 1. [Project Description](#1-project-description)<br>
-   - A. Problem Statement<br>
-   - B. Introduction About Project<br>
-   - C. Tools and Libraries
+   - A. Introduction About Project<br>
+     The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive information on taxi trips in New York City, including those for yellow       and green taxis. However, the sheer volume of data and redundancy pose challenges for meaningful analytics. Processing and analyzing such large          datasets efficiently become crucial for extracting valuable insights and optimizing taxi services.
+
+   - **Volume and Redundancy:** The dataset is vast, containing millions of records with redundant information.
+   - **Data Suitability:** The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.
+
+   - B. Tools and Libraries
+        **Tools**<br>
+         - Python<br>
+         - Jupyter Notebook<br>
+         - PostgreSQL<br>
+         - [lucid](https://lucid.app/users/login#/login)<br>
+         - Mage<br>
+         - Docker<br>
+         - GitHub<br>
+         
+     **Libraries**<br>
+         - Pandas<br>
+         - Numpy<br>
+         - Seaborn<br>
+         - Matplotlib<br>
 2. [Data Collection-TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) <br> <br>
     You can download all the data file used in this project by using following link, 
     ```bash
@@ -44,11 +62,11 @@
 
     All the data was copied from the NYC TLC [website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-4. Generic Flow Of Project
+3. Generic Flow Of Project
    
    ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/Project_Architecture.png)<br>
    
-6. Data Development
+4. Data Development
 
    I am using mage-ai as ETL for data development. At first load yello trip data then filter some data (there are some string value in int column) then
    create separate csv file(after_clean.csv).
@@ -310,35 +328,3 @@
    After the pipeline execute, It will create different csv file according to warehouse design.
    ![](https://github.com/bibek376/Uber_Data_Engineering_Project/blob/master/pictures/final_result.png)<br>
 
-
-
-
-### 1. Project Description
-#### A. Problem Statement
-The TLC (Taxi and Limousine Commission) Trip Record Data provides extensive information on taxi trips in New York City, including those for yellow and green taxis. However, the sheer volume of data and redundancy pose challenges for meaningful analytics. Processing and analyzing such large datasets efficiently become crucial for extracting valuable insights and optimizing taxi services.
-
-- **Volume and Redundancy:** The dataset is vast, containing millions of records with redundant information.
-- **Data Suitability:** The raw data may not be immediately suitable for analytics due to its sheer size and unstructured nature.
-
-
-#### B. Best Possible Solutions
-- Big Data 
-- Costly server
-- ETL approach
-
-#### C. Introduction About Project
-
-#### D. Tools and Libraries
-**Tools**<br>
-- Python
-- Jupyter Notebook
-- PostgreSQL
-- [lucid](https://lucid.app/users/login#/login)
-- Mage
-- GitHub
-
-**Libraries**<br>
-- Pandas
-- Numpy
-- Seaborn
-- Matplotlib
