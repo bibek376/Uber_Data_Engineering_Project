@@ -4,7 +4,10 @@
 1. Clone or Fork the Uber Taxi Data Engineering Project using SSH or HTTPS method
 2. Create a Virtual Environment (optional)
 3. Install dependencies like Python and Pandas package
-
+4. You can directly use the docker mage image but remember to limit docker container in terms of memory
+   ```docker
+      sudo docker pull mageai/mageai:lates
+   ```
 ## Project Structure 
 ```bash
    ├── data
