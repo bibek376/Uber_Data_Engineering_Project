@@ -7,7 +7,7 @@
 4. You can directly use the docker mage image but remember to limit docker container in terms of memory
    
    ```docker
-      sudo docker pull mageai/mageai:lates
+      sudo docker pull mageai/mageai:latest
    ```
    ```bash
       sudo docker run -d -v /home/bibek/Desktop/uber_data_engineering/:/root/ --memory='9216mb' <image_name> 
